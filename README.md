@@ -1,12 +1,12 @@
-基于c++实现的轻量的RPC框架
+# 基于c++实现的轻量的RPC框架
 
-使用到的技术
+## 使用到的技术
     1.muduo网络库   => 作为服务端的网络连接
     2.zookeeper    => 在zookeeper上注册服务端发布的网络服务
     3.protobuf     => 使用作为反序列化和序列化的工具
 
 
-整体项目框架
+## 整体项目框架
     autobuild.sh => shell自动编译脚本
     bin          => 编译完将在bin目录下生成可执行文件，以及包含项目的配置文件test.conf，默认配置将会运行在本地
     lib          => 编译完将在此生成动态库，以及会将.h文件放入其中
@@ -15,7 +15,7 @@
     src          => 整个项目的源码
 
 
-项目执行流程
+## 项目执行流程
     rpc服务调用方（user）                   rpc服务提供方（server）                         ZooKeeper
                                                 |  <-----------通过session连接----------->  |
                                         1. RpcProvider::NotifyService 初始化
@@ -52,8 +52,8 @@
     成功则打印结果，否则失败程序错误退出
 
 
-项目额外功能
-    集成了一个日志系统
+## 项目额外功能
+    集成了一个日志系统(logger 和 lockqueue)
     ：通过队列和互斥锁实现
         通过std::lock_guard来管理锁，写队列时上锁，写完自动放锁
         出队上锁，队为空 释放锁 否则写出
@@ -61,18 +61,18 @@
 
 
 
-项目编译和运行
-    ./autobuild.sh 
+## 项目编译和运行
+    `./autobuild.sh 
     cd bin 
     ./provider -i test.conf
-    ./consumer -i test.conf
+    ./consumer -i test.conf`
     或 
-    cd build 
+    `cd build 
     cmake ..
     make
     cd bin 
     ./provider -i test.conf
-    ./consumer -i test.conf
+    ./consumer -i test.conf`
 
 
 
