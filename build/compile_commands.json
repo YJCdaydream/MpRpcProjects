@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/yjc/c++_projects/src/logger.cc",
+  "file": "/home/yjc/c++_projects/src/logger.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/yjc/c++_projects/src/mprpcapplication.cc",
+  "file": "/home/yjc/c++_projects/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/yjc/c++_projects/src/mprpcchannel.cc",
+  "file": "/home/yjc/c++_projects/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/yjc/c++_projects/src/mprpccontroller.cc",
+  "file": "/home/yjc/c++_projects/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/mprpconfig.cc.o -c /home/yjc/c++_projects/src/mprpconfig.cc",
+  "file": "/home/yjc/c++_projects/src/mprpconfig.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/yjc/c++_projects/src/rpcheader.pb.cc",
+  "file": "/home/yjc/c++_projects/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yjc/c++_projects/src/rpcprovider.cc",
+  "file": "/home/yjc/c++_projects/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/src",
+  "command": "/usr/bin/g++ -DTHREADED -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/yjc/c++_projects/src/zookeeperutil.cc",
+  "file": "/home/yjc/c++_projects/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/provider.dir/userservice.cc.o -c /home/yjc/c++_projects/example/callee/userservice.cc",
+  "file": "/home/yjc/c++_projects/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/yjc/c++_projects/example/user.pb.cc",
+  "file": "/home/yjc/c++_projects/example/user.pb.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/consumer.dir/calleruservice.cc.o -c /home/yjc/c++_projects/example/caller/calleruservice.cc",
+  "file": "/home/yjc/c++_projects/example/caller/calleruservice.cc"
+},
+{
+  "directory": "/home/yjc/c++_projects/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/src/include -I/home/yjc/c++_projects/example -I/usr/local/include -g -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/yjc/c++_projects/example/user.pb.cc",
+  "file": "/home/yjc/c++_projects/example/user.pb.cc"
+}
+]
